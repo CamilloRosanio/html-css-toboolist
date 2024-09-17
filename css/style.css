@@ -28,7 +28,6 @@ main {
     margin: 0 auto;
     padding: 0 10px;
     max-width: 100%;
-    background-color: aqua;
   }
 
 
@@ -51,8 +50,8 @@ main {
   .card_header {
     background-color: white;
     padding: 20px 40px;
-    border-top-left-radius: 35px;
-    border-top-right-radius: 35px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     border-bottom: 2px solid rgb(221, 221, 221);
   }
 
@@ -84,8 +83,8 @@ main {
 .card_content {
     background-color: white;
     padding: 20px 40px;
-    border-bottom-left-radius: 35px;
-    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
   }
 
   .list_title {
@@ -138,8 +137,8 @@ main {
     vertical-align: middle;
     color:white;
     font-size: 10px;
-    padding: 5px 15px;
-    border-radius: 25px;
+    padding: 3px 15px;
+    border-radius: 10px;
   }
 
 /* # LIST ROUNDED COLORS */
@@ -158,4 +157,12 @@ main {
 
   .item_rounded_orange {
     background-color: rgb(211, 137, 27);
+  }
+
+  .item_rounded_fuxia {
+    background-color: rgb(192, 33, 184);
+  }
+
+  .item_rounded_lime {
+    background-color: rgb(158, 182, 25);
   }
