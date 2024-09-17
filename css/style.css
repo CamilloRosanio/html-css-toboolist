@@ -53,6 +53,7 @@ main {
     padding: 20px 40px;
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
+    border-bottom: 2px solid rgb(221, 221, 221);
   }
 
   .radius_button {
@@ -75,4 +76,20 @@ main {
     border:2px solid currentColor;
     border-color:currentColor;
     background-color: transparent;
+  }
+
+
+/* # CARD CONTENT */
+
+.card_content {
+    background-color: white;
+    padding: 20px 40px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+  }
+
+  .list_title {
+    color: rgb(48, 48, 48);
+    font-weight: bold;
+    font-size: 1.5rem;
   }
