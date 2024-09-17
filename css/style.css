@@ -91,5 +91,55 @@ main {
   .list_title {
     color: rgb(48, 48, 48);
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  .list {
+    list-style-type: none;
+    color:rgb(87, 87, 87);
+    font-weight:medium;
+    margin-bottom: 2rem;
+  }
+
+  .list-item {
+    line-height: 25px;
+  }
+
+  .symbol {
+    display: inline-block;
+    text-align: center;
+    height:25px;
+    width:25px;
+    border: 2px solid currentColor;
+    border-radius: 50%;
+  }
+
+  .check {
+    color:rgb(0, 161, 94);
+  }
+
+  .cross {
+    color:rgb(201, 30, 0);
+  }
+
+  .item_subject {
+    display: inline-block;
+    height:25px;
+    margin: 0 10px;
+    color: rgb(48, 48, 48);
+    font-size: 18px;
+  }
+
+  .item_rounded {
+    display: inline-block;
+    line-height: 18px;
+    vertical-align: middle;
+    color:white;
+    font-size: 10px;
+    padding: 5px 15px;
+    border-radius: 25px;
+  }
+
+  .intem_rounded_blue {
+    background-color: rgb(0, 119, 255);
   }
