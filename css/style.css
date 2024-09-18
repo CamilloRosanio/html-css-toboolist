@@ -1,11 +1,13 @@
 /* # FONT */
 
+*{
+  font-family: "Roboto Condensed", sans-serif;
+}
 
 
 /* # RESET */
 
 * {
-    font-family: "Roboto Condensed", sans-serif;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -27,16 +29,18 @@ main {
   }
 
 
-  /* # HEADER */
+/* # HEADER */
 
   .container_header {
     margin: 0 auto;
     padding: 0 10px;
     max-width: 100%;
   }
+  /* CORREZIONE !!!
+  avrei in realtà dovuto applicare una "line-height" al <div> che contiene gli elementi e non ai singoli contenuti (nonostante possa specificare la loro grandezza). */
 
 
-.header_image {
+  .header_image {
     line-height: 50px;
     vertical-align: middle;
   }
@@ -50,7 +54,7 @@ main {
   }
 
 
-  /* # CARD HEADER */
+/* # CARD HEADER */
 
   .card_header {
     background-color: white;
@@ -64,10 +68,10 @@ main {
     padding: 10px 20px;
     border-radius: 5px;
     font-weight:bold;
-    color: white;
     border:0;
-    background-color: rgb(0, 119, 255);
   }
+    /* CORREZIONE !!!
+    avrei dovuto assegnare "display: inline-block" ai bottoni, perchè non essendo tag "block", se espando le dimensioni il loro contenitore non si adatta ad essi, ma loro "escono" dal contenitore. */
 
   .button_blue {
     color: white;
